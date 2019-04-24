@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="CorFonteBranca">#fff</color>
+    <color name="CorBotoes">#fb7e14</color>
+    <color name="CorFonteBotoes">#292929</color>
+    <color name="CorFundo">#292929</color>
+</resources>

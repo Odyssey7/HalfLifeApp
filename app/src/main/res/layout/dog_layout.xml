@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CorFundo"
+    android:orientation="vertical"
+    tools:context=".dog_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Dog"
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/dog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Dog é o robô animal de estimação de Alyx Vance, construído por seu pai Eli para protegê-la quando ela era jovem e acabou sendo aprimorada.
+            Os Vortigaunts, antigamente conhecidos como Alien Slaves ou Xen Slaves, e carinhosamente conhecidos como Vorts por seus aliados, são uma espécie alienígena encontrada no Metade. Série de vida.
+            Muito antes do incidente de Black Mesa, a terra natal dos Vortigaunts foi invadida pelo Combine, forçando os sobreviventes da invasão a fugir para Xen. Quando ocorreu o Incidente da Black Mesa, seu mestre, um ser conhecido como Nihilanth, viu a fenda que se abria como uma chance de escapar e ordenou aos Vortigaunts que invadissem a Terra.
+            Após a morte do Nihilanth, os Vortigaunts escolheram aliar-se à Resistência liderada por humanos em sua tentativa de derrubar o domínio Combinado da Terra."
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

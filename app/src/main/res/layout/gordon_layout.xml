@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CorFundo"
+    android:orientation="vertical"
+    tools:context=".gordon_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Gordon Freeman"
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/gordon"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Dr. Gordon Freeman é o protagonista da série Half-Life. Ele é um físico teórico que é forçado a se defender e a raça humana contra alienígenas hostis e outros inimigos após um experimento que deu errado. No processo, ele se torna um herói de resistência quase lendário, tornando-se um dos líderes de uma revolta contra os ocupantes estrangeiros."
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

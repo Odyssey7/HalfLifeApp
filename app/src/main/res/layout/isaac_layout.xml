@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CorFundo"
+    android:orientation="vertical"
+    tools:context=".isaac_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Isaac Kleiner"
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/kleiner" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="O Dr. Isaac Kleiner é um cientista americano caucasiano e um dos principais personagens de Half-Life 2 e seus episódios. Um arquetípico cientista genial distraído (embora um pouco mais benigno), ele é um autor prolífico de vários trabalhos sobre teletransporte e viagens interdimensionais, e um dos poucos sobreviventes do incidente que ocorreu no Black Mesa Research Facility. Mais tarde, ele se torna um líder-chave (se um tanto auto-consciente) da Resistência contra o Combinado, e um membro principal da equipe de ciência da Resistência."
+            android:textColor="@color/CorFonteBranca"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
